@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pay by bank wire (order processing will b_e7efad</name>
+   <tag></tag>
+   <elementGuidId>25cb9c3b-dd10-4083-9bc4-e81db19287d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.bankwire</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='HOOK_PAYMENT']/div/div/p/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7175238b-1dc4-416c-a321-979c0fc9d464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bankwire</value>
+      <webElementGuid>bda335b9-0e71-4676-8ed8-4afb2554e1a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://automationpractice.com/index.php?fc=module&amp;module=bankwire&amp;controller=payment</value>
+      <webElementGuid>fba819e0-adfa-44e2-bcfb-93209c36a4ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Pay by bank wire</value>
+      <webElementGuid>03cb3376-caf6-48ee-a54f-cb79abbe8d65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            	Pay by bank wire (order processing will be longer)
+            </value>
+      <webElementGuid>a7c78ea8-d277-427f-a9f1-2a22e7c955aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;HOOK_PAYMENT&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-md-6&quot;]/p[@class=&quot;payment_module&quot;]/a[@class=&quot;bankwire&quot;]</value>
+      <webElementGuid>6e4ba109-7467-440d-ba88-454a22f6eba9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='HOOK_PAYMENT']/div/div/p/a</value>
+      <webElementGuid>1e621f43-6d7b-4140-a437-85a54dee1619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.51'])[6]/following::a[1]</value>
+      <webElementGuid>cfb19904-d717-4658-9b41-99e6156ebb75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.51'])[5]/following::a[1]</value>
+      <webElementGuid>44fdf8a6-8aa1-4aef-89fe-92c87114ca7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay by bank wire']/parent::*</value>
+      <webElementGuid>97148728-cf1a-46a5-8fa8-60a3a7280467</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://automationpractice.com/index.php?fc=module&amp;module=bankwire&amp;controller=payment']</value>
+      <webElementGuid>62b499e7-0e9c-44c5-b4a6-f401c9617d1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[3]/div/div/p/a</value>
+      <webElementGuid>2a96c682-9eb1-4cf6-95ab-e48379b79682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://automationpractice.com/index.php?fc=module&amp;module=bankwire&amp;controller=payment' and @title = 'Pay by bank wire' and (text() = '
+            	Pay by bank wire (order processing will be longer)
+            ' or . = '
+            	Pay by bank wire (order processing will be longer)
+            ')]</value>
+      <webElementGuid>d42a0dd2-4c67-4f09-9a2f-a47ef40f1bc7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

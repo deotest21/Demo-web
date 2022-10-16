@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mystore" time="150.552" tests="3" failures="0" errors="0">
+   <testsuite name="Mystore" tests="3" failures="0" errors="0" time="150.552" skipped="0" timestamp="2022-10-16 20:34:56" hostname="TEST - DESKTOP-5E4IS0E" id="Test Suites/Mystore">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon_project\\DemoNew\\Demo-web\\Reports\\20221016_203448\\Mystore\\20221016_203448"/>
+         <property name="logFiles" value="E:\\Katalon_project\\DemoNew\\Demo-web\\Reports\\20221016_203448\\Mystore\\20221016_203448\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TEST - DESKTOP-5E4IS0E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.122"/>
+         <property name="sessionId" value="931267694cc8c0741733dc3f12b834d8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LogIn" time="58.223" classname="Test Cases/LogIn" status="PASSED">
+         <system-out><![CDATA[2022-10-16 20:34:57 - [TEST_CASE][PASSED] - Test Cases/LogIn: Test Cases/LogIn
+
+2022-10-16 20:34:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-16 20:34:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-16 20:34:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-16 20:35:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-16 20:35:00 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2022-10-16 20:35:12 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2022-10-16 20:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Store/a_Sign in")): Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2022-10-16 20:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2022-10-16 20:35:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input_Email address_email"), "test.test@demo.it"): Text 'test.test@demo.it' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2022-10-16 20:35:29 - [MESSAGE][PASSED] - Text 'test.test@demo.it' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2022-10-16 20:35:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login - My Store/input_Password_passwd"), "p4y+y39Ir5Oy1MY8jPt0uQ=="): Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2022-10-16 20:35:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2022-10-16 20:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Sign in")): Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2022-10-16 20:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2022-10-16 20:35:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_My account - My Store/a_test test"), 0): Object 'Object Repository/Page_My account - My Store/a_test test' is present
+
+2022-10-16 20:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:35:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account - My Store/a_test test' is present
+
+2022-10-16 20:35:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_My account - My Store/span_test test"), "test test"): Actual text and expected text of test object 'Object Repository/Page_My account - My Store/span_test test' are matched.
+
+2022-10-16 20:35:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_My account - My Store/span_test test' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine" time="72.439" classname="Test Cases/Ordine" status="PASSED">
+         <system-out><![CDATA[2022-10-16 20:35:55 - [TEST_CASE][PASSED] - Test Cases/Ordine: Test Cases/Ordine
+
+2022-10-16 20:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account - My Store/a_T-shirts")): Object: 'Object Repository/Page_My account - My Store/a_T-shirts' is clicked on
+
+2022-10-16 20:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_T-shirts' is clicked on
+
+2022-10-16 20:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3")): Object: 'Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3' is clicked on
+
+2022-10-16 20:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3' is clicked on
+
+2022-10-16 20:36:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts"), "Faded Short Sleeve T-shirts"): Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:36:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:36:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_T-shirts  Size L - My Store/span_Importo"), "$16.51"): Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo' are matched.
+
+2022-10-16 20:36:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo' are matched.
+
+2022-10-16 20:36:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_In stock"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/span_In stock' is present
+
+2022-10-16 20:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:36:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/span_In stock' is present
+
+2022-10-16 20:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart")): Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart' is clicked on
+
+2022-10-16 20:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart' is clicked on
+
+2022-10-16 20:36:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f' is present
+
+2022-10-16 20:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f' is present
+
+2022-10-16 20:36:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1' is present
+
+2022-10-16 20:36:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1' is present
+
+2022-10-16 20:36:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts' is present
+
+2022-10-16 20:36:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts' is present
+
+2022-10-16 20:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout")): Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:36:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts"), "Faded Short Sleeve T-shirts"): Actual text and expected text of test object 'Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:36:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:36:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order - My Store/span_Importo"), "$16.51"): Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Importo' are matched.
+
+2022-10-16 20:36:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Importo' are matched.
+
+2022-10-16 20:36:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order - My Store/span_Totale"), "$19.25"): Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Totale' are matched.
+
+2022-10-16 20:36:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Totale' are matched.
+
+2022-10-16 20:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/span_Proceed to checkout")): Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/span_Proceed to checkout")): Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/input_2.00_cgv")): Object: 'Object Repository/Page_Order - My Store/input_2.00_cgv' is clicked on
+
+2022-10-16 20:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/input_2.00_cgv' is clicked on
+
+2022-10-16 20:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/span_Proceed to checkout_1")): Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout_1' is clicked on
+
+2022-10-16 20:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout_1' is clicked on
+
+2022-10-16 20:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/a_Pay by bank wire (order processing will b_e7efad")): Object: 'Object Repository/Page_Order - My Store/a_Pay by bank wire (order processing will b_e7efad' is clicked on
+
+2022-10-16 20:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/a_Pay by bank wire (order processing will b_e7efad' is clicked on
+
+2022-10-16 20:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Store/span_I confirm my order")): Object: 'Object Repository/Page_My Store/span_I confirm my order' is clicked on
+
+2022-10-16 20:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/span_I confirm my order' is clicked on
+
+2022-10-16 20:37:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order confirmation - My Store/strong_Your order on My Store is complete"), "Your order on My Store is complete."): Actual text and expected text of test object 'Object Repository/Page_Order confirmation - My Store/strong_Your order on My Store is complete' are matched.
+
+2022-10-16 20:37:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order confirmation - My Store/strong_Your order on My Store is complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut" time="19.508" classname="Test Cases/LogOut" status="PASSED">
+         <system-out><![CDATA[2022-10-16 20:37:07 - [TEST_CASE][PASSED] - Test Cases/LogOut: Test Cases/LogOut
+
+2022-10-16 20:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account - My Store/a_Sign out")): Object: 'Object Repository/Page_My account - My Store/a_Sign out' is clicked on
+
+2022-10-16 20:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Sign out' is clicked on
+
+2022-10-16 20:37:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login - My Store/a_Sign in"), 0): Object 'Object Repository/Page_Login - My Store/a_Sign in' is present
+
+2022-10-16 20:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - My Store/a_Sign in' is present
+
+2022-10-16 20:37:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-16 20:37:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-16 20:34:56 - [TEST_SUITE][PASSED] - Mystore: Test Cases/LogOut]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

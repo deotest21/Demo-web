@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Your order on My Store is complete</name>
+   <tag></tag>
+   <elementGuidId>47336001-94c6-4e76-9572-521b93cb67cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.cheque-indent > strong.dark</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='center_column']/div/p/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>b59740b5-22b6-478a-b618-d72d1c088ecb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dark</value>
+      <webElementGuid>afc4b983-e051-4a2f-a4e1-2cc5b1869a93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your order on My Store is complete.</value>
+      <webElementGuid>0e6002aa-355b-41b7-b6e6-1228d3357fce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;center_column&quot;)/div[@class=&quot;box&quot;]/p[@class=&quot;cheque-indent&quot;]/strong[@class=&quot;dark&quot;]</value>
+      <webElementGuid>628a2fe0-7704-444e-8d09-5d20092ebddd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='center_column']/div/p/strong</value>
+      <webElementGuid>f979b1ea-4d78-4cca-95a3-d297a85c32a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$19.25'])[1]/preceding::strong[1]</value>
+      <webElementGuid>1bc6cbe1-265e-47cb-89d4-d54adece931e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pradeep Macharla'])[1]/preceding::strong[2]</value>
+      <webElementGuid>4e3ba16e-2eb2-4538-a3a4-3c45516aa9a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your order on My Store is complete.']/parent::*</value>
+      <webElementGuid>6d6a2b35-c9e0-4eec-98b9-971b9d30d938</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/strong</value>
+      <webElementGuid>d1807b59-75e5-41b7-8b74-fc17cfcd8674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'Your order on My Store is complete.' or . = 'Your order on My Store is complete.')]</value>
+      <webElementGuid>ad5b25e6-d52c-4967-9111-bb507dd4fbc9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mystore,Chrome 106.0.0.0,,,2022-10-16 20:27:10,2022-10-16 20:28:04,"53,749s",FAILED
+,,,,,,,
+Test Cases/LogIn,Chrome 106.0.0.0,,,2022-10-16 20:27:11,2022-10-16 20:27:36,"25,588s",PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-16 20:27:11,2022-10-16 20:27:15,"4,103s",PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 106.0.0.0,,,2022-10-16 20:27:15,2022-10-16 20:27:23,"7,648s",PASSED
+"click(findTestObject(""Object Repository/Page_My Store/a_Sign in""))",Chrome 106.0.0.0,,,2022-10-16 20:27:23,2022-10-16 20:27:30,"7,349s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - My Store/input_Email address_email""), ""test.test@demo.it"")",Chrome 106.0.0.0,,,2022-10-16 20:27:30,2022-10-16 20:27:31,"0,925s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - My Store/input_Password_passwd""), ""p4y+y39Ir5Oy1MY8jPt0uQ=="")",Chrome 106.0.0.0,,,2022-10-16 20:27:31,2022-10-16 20:27:32,"0,502s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - My Store/span_Sign in""))",Chrome 106.0.0.0,,,2022-10-16 20:27:32,2022-10-16 20:27:35,"3,622s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_My account - My Store/a_test test""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:27:35,2022-10-16 20:27:36,"0,474s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account - My Store/span_test test""), ""test test"")",Chrome 106.0.0.0,,,2022-10-16 20:27:36,2022-10-16 20:27:36,"0,464s",PASSED
+,,,,,,,
+Test Cases/Ordine,Chrome 106.0.0.0,,,2022-10-16 20:27:36,2022-10-16 20:28:00,"23,474s",FAILED
+"click(findTestObject(""Object Repository/Page_My account - My Store/a_T-shirts""))",Chrome 106.0.0.0,,,2022-10-16 20:27:37,2022-10-16 20:27:40,"2,863s",PASSED
+"click(findTestObject(""Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3""))",Chrome 106.0.0.0,,,2022-10-16 20:27:40,2022-10-16 20:27:40,"0,517s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts""), ""Faded Short Sleeve T-shirts"")",Chrome 106.0.0.0,,,2022-10-16 20:27:40,2022-10-16 20:27:43,"2,894s",PASSED
+"verifyElementText(findTestObject(""Page_T-shirts  Size L - My Store/span_Importo""), ""$16.51"")",Chrome 106.0.0.0,,,2022-10-16 20:27:43,2022-10-16 20:27:43,"0,410s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/span_In stock""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:27:43,2022-10-16 20:27:44,"0,375s",PASSED
+"click(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart""))",Chrome 106.0.0.0,,,2022-10-16 20:27:44,2022-10-16 20:27:44,"0,436s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:27:44,2022-10-16 20:27:48,"4,196s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:27:48,2022-10-16 20:27:49,"0,383s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:27:49,2022-10-16 20:27:49,"0,361s",PASSED
+"click(findTestObject(""Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout""))",Chrome 106.0.0.0,,,2022-10-16 20:27:49,2022-10-16 20:27:52,"3,089s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts""), ""Faded Short Sleeve T-shirts"")",Chrome 106.0.0.0,,,2022-10-16 20:27:52,2022-10-16 20:27:53,"0,534s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Order - My Store/span_Importo""), ""$16.51"")",Chrome 106.0.0.0,,,2022-10-16 20:27:53,2022-10-16 20:27:53,"0,401s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Order - My Store/span_Totale""), ""$19.25"")",Chrome 106.0.0.0,,,2022-10-16 20:27:53,2022-10-16 20:27:54,"0,434s",PASSED
+"click(findTestObject(""Object Repository/Page_Order - My Store/span_Proceed to checkout""))",Chrome 106.0.0.0,,,2022-10-16 20:27:54,2022-10-16 20:27:56,"2,588s",PASSED
+"click(findTestObject(""Object Repository/Page_Order - My Store/span_Proceed to checkout""))",Chrome 106.0.0.0,,,2022-10-16 20:27:56,2022-10-16 20:27:59,"2,846s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Order - My Store/td_My carrierDelivery next day""), ""My carrier
+																																											Delivery next day!"")",Chrome 106.0.0.0,,,2022-10-16 20:27:59,2022-10-16 20:28:00,"0,763s",FAILED
+,,,,,,,
+Test Cases/LogOut,Chrome 106.0.0.0,,,2022-10-16 20:28:00,2022-10-16 20:28:04,"4,300s",PASSED
+"click(findTestObject(""Object Repository/Page_My account - My Store/a_Sign out""))",Chrome 106.0.0.0,,,2022-10-16 20:28:00,2022-10-16 20:28:03,"2,766s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Login - My Store/a_Sign in""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:28:03,2022-10-16 20:28:03,"0,512s",PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-16 20:28:03,2022-10-16 20:28:04,"0,749s",PASSED

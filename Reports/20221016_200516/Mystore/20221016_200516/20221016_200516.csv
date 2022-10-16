@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mystore,Chrome 106.0.0.0,,,2022-10-16 20:05:24,2022-10-16 20:06:05,"40,755s",PASSED
+,,,,,,,
+Test Cases/LogIn,Chrome 106.0.0.0,,,2022-10-16 20:05:25,2022-10-16 20:05:59,"34,392s",PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-16 20:05:26,2022-10-16 20:05:33,"7,285s",PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 106.0.0.0,,,2022-10-16 20:05:33,2022-10-16 20:05:44,"11,380s",PASSED
+"click(findTestObject(""Object Repository/Page_My Store/a_Sign in""))",Chrome 106.0.0.0,,,2022-10-16 20:05:44,2022-10-16 20:05:50,"5,985s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - My Store/input_Email address_email""), ""test.test@demo.it"")",Chrome 106.0.0.0,,,2022-10-16 20:05:50,2022-10-16 20:05:51,"1,071s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - My Store/input_Password_passwd""), ""p4y+y39Ir5Oy1MY8jPt0uQ=="")",Chrome 106.0.0.0,,,2022-10-16 20:05:51,2022-10-16 20:05:55,"3,801s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - My Store/span_Sign in""))",Chrome 106.0.0.0,,,2022-10-16 20:05:55,2022-10-16 20:05:58,"3,039s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_My account - My Store/a_test test""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:05:58,2022-10-16 20:05:59,"0,562s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account - My Store/span_test test""), ""test test"")",Chrome 106.0.0.0,,,2022-10-16 20:05:59,2022-10-16 20:05:59,"0,450s",PASSED
+,,,,,,,
+Test Cases/LogOut,Chrome 106.0.0.0,,,2022-10-16 20:05:59,2022-10-16 20:06:05,"5,833s",PASSED
+"click(findTestObject(""Object Repository/Page_My account - My Store/a_Sign out""))",Chrome 106.0.0.0,,,2022-10-16 20:06:00,2022-10-16 20:06:04,"3,969s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Login - My Store/a_Sign in""), 0)",Chrome 106.0.0.0,,,2022-10-16 20:06:04,2022-10-16 20:06:04,"0,536s",PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-16 20:06:04,2022-10-16 20:06:05,"0,758s",PASSED

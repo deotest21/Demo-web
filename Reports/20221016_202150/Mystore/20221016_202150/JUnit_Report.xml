@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mystore" time="77.194" tests="3" failures="1" errors="0">
+   <testsuite name="Mystore" tests="3" failures="1" errors="0" time="77.194" skipped="0" timestamp="2022-10-16 20:21:56" hostname="TEST - DESKTOP-5E4IS0E" id="Test Suites/Mystore">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon_project\\DemoNew\\Demo-web\\Reports\\20221016_202150\\Mystore\\20221016_202150"/>
+         <property name="logFiles" value="E:\\Katalon_project\\DemoNew\\Demo-web\\Reports\\20221016_202150\\Mystore\\20221016_202150\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon_project\\DemoNew\\Demo-web\\Reports\\20221016_202150\\Mystore\\20221016_202150\\1665944588908.png"/>
+         <property name="hostName" value="TEST - DESKTOP-5E4IS0E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.122"/>
+         <property name="sessionId" value="9e4bbb8c86990c6c94b5a93cfaf75aa5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LogIn" time="20.521" classname="Test Cases/LogIn" status="PASSED">
+         <system-out><![CDATA[2022-10-16 20:21:56 - [TEST_CASE][PASSED] - Test Cases/LogIn: Test Cases/LogIn
+
+2022-10-16 20:21:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-16 20:21:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-16 20:21:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-16 20:22:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-16 20:22:00 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2022-10-16 20:22:07 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2022-10-16 20:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Store/a_Sign in")): Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2022-10-16 20:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2022-10-16 20:22:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input_Email address_email"), "test.test@demo.it"): Text 'test.test@demo.it' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2022-10-16 20:22:13 - [MESSAGE][PASSED] - Text 'test.test@demo.it' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2022-10-16 20:22:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login - My Store/input_Password_passwd"), "p4y+y39Ir5Oy1MY8jPt0uQ=="): Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2022-10-16 20:22:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2022-10-16 20:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Sign in")): Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2022-10-16 20:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2022-10-16 20:22:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_My account - My Store/a_test test"), 0): Object 'Object Repository/Page_My account - My Store/a_test test' is present
+
+2022-10-16 20:22:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:22:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account - My Store/a_test test' is present
+
+2022-10-16 20:22:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_My account - My Store/span_test test"), "test test"): Actual text and expected text of test object 'Object Repository/Page_My account - My Store/span_test test' are matched.
+
+2022-10-16 20:22:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_My account - My Store/span_test test' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine" time="51.78" classname="Test Cases/Ordine" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Ordine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-10-16 20:22:17 - [TEST_CASE][FAILED] - Test Cases/Ordine: Test Cases/Ordine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-10-16 20:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account - My Store/a_T-shirts")): Object: 'Object Repository/Page_My account - My Store/a_T-shirts' is clicked on
+
+2022-10-16 20:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_T-shirts' is clicked on
+
+2022-10-16 20:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3")): Object: 'Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3' is clicked on
+
+2022-10-16 20:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts - My Store/input_(1)_layered_id_attribute_group_3' is clicked on
+
+2022-10-16 20:22:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts"), "Faded Short Sleeve T-shirts"): Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:22:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:22:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_T-shirts  Size L - My Store/span_Importo"), "$16.51"): Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo' are matched.
+
+2022-10-16 20:22:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo' are matched.
+
+2022-10-16 20:22:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_In stock"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/span_In stock' is present
+
+2022-10-16 20:22:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/span_In stock' is present
+
+2022-10-16 20:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart")): Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart' is clicked on
+
+2022-10-16 20:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Add to cart' is clicked on
+
+2022-10-16 20:22:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f' is present
+
+2022-10-16 20:22:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:22:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/h2_Product successfully added to your shopp_45f75f' is present
+
+2022-10-16 20:22:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1' is present
+
+2022-10-16 20:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Importo_1' is present
+
+2022-10-16 20:22:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts"), 0): Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts' is present
+
+2022-10-16 20:22:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts  Size L - My Store/span_Faded Short Sleeve T-shirts' is present
+
+2022-10-16 20:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout")): Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts  Size L - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:22:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts"), "Faded Short Sleeve T-shirts"): Actual text and expected text of test object 'Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:22:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts' are matched.
+
+2022-10-16 20:22:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order - My Store/span_Importo"), "$16.51"): Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Importo' are matched.
+
+2022-10-16 20:22:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Importo' are matched.
+
+2022-10-16 20:22:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Order - My Store/span_Totale"), "$19.25"): Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Totale' are matched.
+
+2022-10-16 20:22:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Order - My Store/span_Totale' are matched.
+
+2022-10-16 20:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/span_Proceed to checkout")): Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2022-10-16 20:22:37 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Order - My Store/span_Proceed to checkout")): Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1665944147687.run(Script1665944147687.groovy:51)
+	... 13 more
+)
+
+2022-10-16 20:23:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='center_column']/p[2]/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-10-16 20:23:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1665944147687.run(Script1665944147687.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Katalon_project\\DemoNew\\Demo-web\\Reports\\20221016_202150\\Mystore\\20221016_202150\\1665944588908.png]]]]></system-out>
+         <system-err><![CDATA[2022-10-16 20:22:17 - [TEST_CASE][FAILED] - Test Cases/Ordine: Test Cases/Ordine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut" time="4.536" classname="Test Cases/LogOut" status="PASSED">
+         <system-out><![CDATA[2022-10-16 20:23:09 - [TEST_CASE][PASSED] - Test Cases/LogOut: Test Cases/LogOut
+
+2022-10-16 20:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account - My Store/a_Sign out")): Object: 'Object Repository/Page_My account - My Store/a_Sign out' is clicked on
+
+2022-10-16 20:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Sign out' is clicked on
+
+2022-10-16 20:23:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login - My Store/a_Sign in"), 0): Object 'Object Repository/Page_Login - My Store/a_Sign in' is present
+
+2022-10-16 20:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-16 20:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - My Store/a_Sign in' is present
+
+2022-10-16 20:23:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-16 20:23:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-16 20:21:56 - [TEST_SUITE][FAILED] - Mystore: Test Cases/Ordine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-10-16 20:21:56 - [TEST_SUITE][FAILED] - Mystore: Test Cases/Ordine FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Order - My Store/span_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Ordine.run(Ordine:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1665944510125.run(TempTestSuite1665944510125.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' located by '//div[@id='center_column']/p[2]/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

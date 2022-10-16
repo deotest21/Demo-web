@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Object Repository/Page_My account - My Store/a_Sign out'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Login - My Store/a_Sign in'), 0)
+
+WebUI.closeBrowser()
+
